@@ -1,0 +1,152 @@
+15:53:33.390 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarting(55) - Starting IrDemoApplication using Java 17.0.7 on LAPTOP-JJI4VMN8 with PID 69972 (C:\Users\wsc\Downloads\ir_demo-master\ir_demo-master\target\classes started by wsc in C:\Users\wsc\Downloads\ir_demo-master)
+15:53:33.392 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStartupProfileInfo(634) - No active profile set, falling back to 1 default profile: "default"
+15:53:33.433 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+15:53:33.434 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+15:53:34.224 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize(108) - Tomcat initialized with port(s): 8080 (http)
+15:53:34.232 [restartedMain] INFO  o.a.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+15:53:34.233 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.68]
+15:53:34.305 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+15:53:34.305 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext(292) - Root WebApplicationContext: initialization completed in 870 ms
+15:53:34.347 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(74) - 系统工作目录[workspace]不存在，尝试创建
+15:53:34.349 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(74) - 系统工作目录[workspace/idx]不存在，尝试创建
+15:53:34.351 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(74) - 系统工作目录[workspace/crawler]不存在，尝试创建
+15:53:34.437 [restartedMain] INFO  cn.edu.bistu.cs.ir.index.IdxService.<init>(48) - 索引初始化完成，索引目录为:[workspace/idx]
+15:53:34.700 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer(59) - LiveReload server is running on port 35729
+15:53:34.714 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh(591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+15:53:34.715 [restartedMain] INFO  cn.edu.bistu.cs.ir.index.IdxService.destroy(108) - 索引关闭
+15:53:34.728 [restartedMain] INFO  o.a.catalina.core.StandardService.log(173) - Stopping service [Tomcat]
+15:53:34.738 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage(136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+15:53:34.754 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter.report(40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+16:04:26.245 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarting(55) - Starting IrDemoApplication using Java 17.0.7 on LAPTOP-JJI4VMN8 with PID 71868 (C:\Users\wsc\Downloads\ir_demo-master\ir_demo-master\target\classes started by wsc in C:\Users\wsc\Downloads\ir_demo-master)
+16:04:26.246 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStartupProfileInfo(634) - No active profile set, falling back to 1 default profile: "default"
+16:04:26.295 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:04:26.295 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+16:04:27.113 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize(108) - Tomcat initialized with port(s): 8080 (http)
+16:04:27.123 [restartedMain] INFO  o.a.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+16:04:27.124 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.68]
+16:04:27.199 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+16:04:27.200 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext(292) - Root WebApplicationContext: initialization completed in 904 ms
+16:04:27.243 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace]已经存在，可以直接使用
+16:04:27.245 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/idx]已经存在，可以直接使用
+16:04:27.245 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/crawler]已经存在，可以直接使用
+16:04:27.333 [restartedMain] INFO  cn.edu.bistu.cs.ir.index.IdxService.<init>(48) - 索引初始化完成，索引目录为:[workspace/idx]
+16:04:27.594 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer(59) - LiveReload server is running on port 35729
+16:04:27.608 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh(591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+16:04:27.609 [restartedMain] INFO  cn.edu.bistu.cs.ir.index.IdxService.destroy(108) - 索引关闭
+16:04:27.614 [restartedMain] INFO  o.a.catalina.core.StandardService.log(173) - Stopping service [Tomcat]
+16:04:27.625 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage(136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+16:04:27.641 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter.report(40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+16:06:27.501 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarting(55) - Starting IrDemoApplication using Java 17.0.7 on LAPTOP-JJI4VMN8 with PID 62580 (C:\Users\wsc\Downloads\ir_demo-master\ir_demo-master\target\classes started by wsc in C:\Users\wsc\Downloads\ir_demo-master)
+16:06:27.502 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStartupProfileInfo(634) - No active profile set, falling back to 1 default profile: "default"
+16:06:27.543 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:06:27.544 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+16:06:28.333 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize(108) - Tomcat initialized with port(s): 8080 (http)
+16:06:28.344 [restartedMain] INFO  o.a.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+16:06:28.344 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.68]
+16:06:28.418 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+16:06:28.419 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext(292) - Root WebApplicationContext: initialization completed in 874 ms
+16:06:28.460 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace]已经存在，可以直接使用
+16:06:28.462 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/idx]已经存在，可以直接使用
+16:06:28.462 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/crawler]已经存在，可以直接使用
+16:06:28.551 [restartedMain] INFO  cn.edu.bistu.cs.ir.index.IdxService.<init>(48) - 索引初始化完成，索引目录为:[workspace/idx]
+16:06:28.796 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer(59) - LiveReload server is running on port 35729
+16:06:28.821 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start(220) - Tomcat started on port(s): 8080 (http) with context path ''
+16:06:28.830 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarted(61) - Started IrDemoApplication in 1.68 seconds (JVM running for 2.296)
+16:08:56.014 [SpringApplicationShutdownHook] INFO  cn.edu.bistu.cs.ir.index.IdxService.destroy(108) - 索引关闭
+16:08:57.884 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarting(55) - Starting IrDemoApplication using Java 17.0.7 on LAPTOP-JJI4VMN8 with PID 70384 (C:\Users\wsc\Downloads\ir_demo-master\ir_demo-master\target\classes started by wsc in C:\Users\wsc\Downloads\ir_demo-master)
+16:08:57.886 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStartupProfileInfo(634) - No active profile set, falling back to 1 default profile: "default"
+16:08:57.926 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:08:57.927 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+16:08:58.670 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize(108) - Tomcat initialized with port(s): 8080 (http)
+16:08:58.680 [restartedMain] INFO  o.a.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+16:08:58.680 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.68]
+16:08:58.765 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+16:08:58.766 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext(292) - Root WebApplicationContext: initialization completed in 838 ms
+16:08:58.812 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace]已经存在，可以直接使用
+16:08:58.814 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/idx]已经存在，可以直接使用
+16:08:58.814 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/crawler]已经存在，可以直接使用
+16:08:58.916 [restartedMain] INFO  cn.edu.bistu.cs.ir.index.IdxService.<init>(48) - 索引初始化完成，索引目录为:[workspace/idx]
+16:08:59.187 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer(59) - LiveReload server is running on port 35729
+16:08:59.222 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start(220) - Tomcat started on port(s): 8080 (http) with context path ''
+16:08:59.232 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarted(61) - Started IrDemoApplication in 1.705 seconds (JVM running for 2.377)
+16:13:04.040 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent(213) - Restarting due to 16 class path changes (0 additions, 16 deletions, 0 modifications)
+16:13:04.089 [Thread-5] INFO  o.a.catalina.core.StandardService.log(173) - Stopping service [Tomcat]
+16:13:04.095 [Thread-5] INFO  cn.edu.bistu.cs.ir.index.IdxService.destroy(108) - 索引关闭
+16:13:04.183 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarting(55) - Starting IrDemoApplication using Java 17.0.7 on LAPTOP-JJI4VMN8 with PID 70384 (C:\Users\wsc\Downloads\ir_demo-master\ir_demo-master\target\classes started by wsc in C:\Users\wsc\Downloads\ir_demo-master)
+16:13:04.184 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStartupProfileInfo(634) - No active profile set, falling back to 1 default profile: "default"
+16:13:04.312 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize(108) - Tomcat initialized with port(s): 8080 (http)
+16:13:04.312 [restartedMain] INFO  o.a.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+16:13:04.313 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.68]
+16:13:04.330 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+16:13:04.331 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext(292) - Root WebApplicationContext: initialization completed in 145 ms
+16:13:04.393 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer(59) - LiveReload server is running on port 35729
+16:13:04.400 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start(220) - Tomcat started on port(s): 8080 (http) with context path ''
+16:13:04.403 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarted(61) - Started IrDemoApplication in 0.261 seconds (JVM running for 247.549)
+16:13:04.404 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent(63) - Condition evaluation unchanged
+16:13:05.831 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent(213) - Restarting due to 17 class path changes (16 additions, 0 deletions, 1 modification)
+16:13:05.905 [Thread-7] INFO  o.a.catalina.core.StandardService.log(173) - Stopping service [Tomcat]
+16:13:06.049 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarting(55) - Starting IrDemoApplication using Java 17.0.7 on LAPTOP-JJI4VMN8 with PID 70384 (C:\Users\wsc\Downloads\ir_demo-master\ir_demo-master\target\classes started by wsc in C:\Users\wsc\Downloads\ir_demo-master)
+16:13:06.049 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStartupProfileInfo(634) - No active profile set, falling back to 1 default profile: "default"
+16:13:06.327 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize(108) - Tomcat initialized with port(s): 8080 (http)
+16:13:06.328 [restartedMain] INFO  o.a.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+16:13:06.328 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.68]
+16:13:06.369 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+16:13:06.370 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext(292) - Root WebApplicationContext: initialization completed in 317 ms
+16:13:06.387 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace]已经存在，可以直接使用
+16:13:06.388 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/idx]已经存在，可以直接使用
+16:13:06.389 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/crawler]已经存在，可以直接使用
+16:13:06.402 [restartedMain] INFO  cn.edu.bistu.cs.ir.index.IdxService.<init>(48) - 索引初始化完成，索引目录为:[workspace/idx]
+16:13:06.497 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer(59) - LiveReload server is running on port 35729
+16:13:06.504 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start(220) - Tomcat started on port(s): 8080 (http) with context path ''
+16:13:06.508 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarted(61) - Started IrDemoApplication in 0.529 seconds (JVM running for 249.654)
+16:13:06.509 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent(63) - Condition evaluation unchanged
+16:20:30.827 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarting(55) - Starting IrDemoApplication using Java 17.0.7 on LAPTOP-JJI4VMN8 with PID 72868 (C:\Users\wsc\Downloads\ir_demo-master\ir_demo-master\target\classes started by wsc in C:\Users\wsc\Downloads\ir_demo-master)
+16:20:30.829 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStartupProfileInfo(634) - No active profile set, falling back to 1 default profile: "default"
+16:20:30.869 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:20:30.869 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+16:20:31.846 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize(108) - Tomcat initialized with port(s): 8080 (http)
+16:20:31.856 [restartedMain] INFO  o.a.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+16:20:31.857 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.68]
+16:20:31.923 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+16:20:31.924 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext(292) - Root WebApplicationContext: initialization completed in 1054 ms
+16:20:32.058 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace]已经存在，可以直接使用
+16:20:32.059 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/idx]已经存在，可以直接使用
+16:20:32.060 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/crawler]已经存在，可以直接使用
+16:20:32.151 [restartedMain] INFO  cn.edu.bistu.cs.ir.index.IdxService.<init>(48) - 索引初始化完成，索引目录为:[workspace/idx]
+16:20:32.526 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer(59) - LiveReload server is running on port 35729
+16:20:32.534 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init>(58) - Exposing 1 endpoint(s) beneath base path '/actuator'
+16:20:32.575 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start(220) - Tomcat started on port(s): 8080 (http) with context path ''
+16:20:32.589 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarted(61) - Started IrDemoApplication in 2.112 seconds (JVM running for 2.734)
+16:20:32.795 [RMI TCP Connection(1)-10.153.24.165] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log(173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:20:32.795 [RMI TCP Connection(1)-10.153.24.165] INFO  o.s.web.servlet.DispatcherServlet.initServletBean(525) - Initializing Servlet 'dispatcherServlet'
+16:20:32.796 [RMI TCP Connection(1)-10.153.24.165] INFO  o.s.web.servlet.DispatcherServlet.initServletBean(547) - Completed initialization in 1 ms

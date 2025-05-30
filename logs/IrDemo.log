@@ -1,0 +1,67 @@
+14:57:51.943 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarting(55) - Starting IrDemoApplication using Java 17.0.7 on LAPTOP-JJI4VMN8 with PID 52012 (C:\Users\wsc\Downloads\ir_demo-master\ir_demo-master\target\classes started by wsc in C:\Users\wsc\Downloads\ir_demo-master)
+14:57:51.951 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStartupProfileInfo(634) - No active profile set, falling back to 1 default profile: "default"
+14:57:51.999 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14:57:52.000 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+14:57:53.077 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize(108) - Tomcat initialized with port(s): 8080 (http)
+14:57:53.088 [restartedMain] INFO  o.a.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+14:57:53.089 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.68]
+14:57:53.187 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+14:57:53.189 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext(292) - Root WebApplicationContext: initialization completed in 1189 ms
+14:57:53.342 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace]已经存在，可以直接使用
+14:57:53.344 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/idx]已经存在，可以直接使用
+14:57:53.344 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/crawler]已经存在，可以直接使用
+14:57:53.494 [restartedMain] INFO  cn.edu.bistu.cs.ir.index.IdxService.<init>(48) - 索引初始化完成，索引目录为:[workspace/idx]
+14:57:53.498 [restartedMain] INFO  c.e.b.cs.ir.crawler.CrawlerService.init(75) - 系统配置信息中[startCrawler]配置项为true，启动爬虫的运行
+14:57:53.504 [restartedMain] INFO  c.e.bistu.cs.ir.index.LucenePipeline.<init>(25) - 初始化LucenePipeline模块
+14:57:53.512 [restartedMain] INFO  c.e.b.cs.ir.crawler.CrawlerService.startCnBlogCrawler(69) - 启动面向博客园的爬虫，抓取博主ID为[tencent-cloud-native]的作者的文章
+14:57:53.605 [Thread-4] INFO  us.codecraft.webmagic.Spider.run(312) - Spider www.cnblogs.com started!
+14:57:53.687 [pool-2-thread-1] WARN  u.c.w.d.HttpClientDownloader.download(89) - download page https://www.cnblogs.com/tencent-cloud-native/default.html?page=2 error
+java.net.UnknownHostException: 不知道这样的主机。 (www.cnblogs.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1543)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1532)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1384)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1305)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:83)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:444)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:65)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:348)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+14:57:53.902 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer(59) - LiveReload server is running on port 35729
+14:57:53.907 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init>(58) - Exposing 1 endpoint(s) beneath base path '/actuator'
+14:57:53.929 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh(591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+14:57:53.932 [restartedMain] INFO  cn.edu.bistu.cs.ir.index.IdxService.destroy(151) - 索引关闭
+14:57:53.938 [restartedMain] INFO  o.a.catalina.core.StandardService.log(173) - Stopping service [Tomcat]
+14:57:53.955 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage(136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+14:57:53.972 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter.report(40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+14:57:58.708 [Thread-4] INFO  us.codecraft.webmagic.Spider.run(365) - Spider www.cnblogs.com closed! 1 pages downloaded.

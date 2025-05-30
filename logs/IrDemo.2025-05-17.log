@@ -1,0 +1,847 @@
+17:18:13.480 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarting(55) - Starting IrDemoApplication using Java 17.0.7 on LAPTOP-JJI4VMN8 with PID 58424 (C:\Users\wsc\Downloads\ir_demo-master\ir_demo-master\target\classes started by wsc in C:\Users\wsc\Downloads\ir_demo-master)
+17:18:13.489 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStartupProfileInfo(634) - No active profile set, falling back to 1 default profile: "default"
+17:18:13.556 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+17:18:13.557 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+17:18:15.202 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize(108) - Tomcat initialized with port(s): 8080 (http)
+17:18:15.215 [restartedMain] INFO  o.a.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+17:18:15.216 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.68]
+17:18:15.458 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+17:18:15.459 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext(292) - Root WebApplicationContext: initialization completed in 1901 ms
+17:18:15.640 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace]已经存在，可以直接使用
+17:18:15.641 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/idx]已经存在，可以直接使用
+17:18:15.642 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/crawler]已经存在，可以直接使用
+17:18:15.828 [restartedMain] INFO  cn.edu.bistu.cs.ir.index.IdxService.<init>(48) - 索引初始化完成，索引目录为:[workspace/idx]
+17:18:16.297 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer(59) - LiveReload server is running on port 35729
+17:18:16.316 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init>(58) - Exposing 1 endpoint(s) beneath base path '/actuator'
+17:18:16.338 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh(591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+17:18:16.340 [restartedMain] INFO  cn.edu.bistu.cs.ir.index.IdxService.destroy(108) - 索引关闭
+17:18:16.345 [restartedMain] INFO  o.a.catalina.core.StandardService.log(173) - Stopping service [Tomcat]
+17:18:16.360 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage(136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+17:18:16.376 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter.report(40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+17:20:07.714 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarting(55) - Starting IrDemoApplication using Java 17.0.7 on LAPTOP-JJI4VMN8 with PID 24932 (C:\Users\wsc\Downloads\ir_demo-master\ir_demo-master\target\classes started by wsc in C:\Users\wsc\Downloads\ir_demo-master)
+17:20:07.716 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStartupProfileInfo(634) - No active profile set, falling back to 1 default profile: "default"
+17:20:07.758 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+17:20:07.759 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+17:20:08.786 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize(108) - Tomcat initialized with port(s): 8080 (http)
+17:20:08.795 [restartedMain] INFO  o.a.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+17:20:08.796 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.68]
+17:20:09.000 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+17:20:09.001 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext(292) - Root WebApplicationContext: initialization completed in 1242 ms
+17:20:09.128 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace]已经存在，可以直接使用
+17:20:09.129 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/idx]已经存在，可以直接使用
+17:20:09.130 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/crawler]已经存在，可以直接使用
+17:20:09.222 [restartedMain] INFO  cn.edu.bistu.cs.ir.index.IdxService.<init>(48) - 索引初始化完成，索引目录为:[workspace/idx]
+17:20:09.603 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer(59) - LiveReload server is running on port 35729
+17:20:09.611 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init>(58) - Exposing 1 endpoint(s) beneath base path '/actuator'
+17:20:09.652 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start(220) - Tomcat started on port(s): 8080 (http) with context path ''
+17:20:09.668 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarted(61) - Started IrDemoApplication in 2.367 seconds (JVM running for 3.1)
+17:20:09.941 [RMI TCP Connection(1)-10.145.173.134] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log(173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:20:09.941 [RMI TCP Connection(1)-10.145.173.134] INFO  o.s.web.servlet.DispatcherServlet.initServletBean(525) - Initializing Servlet 'dispatcherServlet'
+17:20:09.943 [RMI TCP Connection(1)-10.145.173.134] INFO  o.s.web.servlet.DispatcherServlet.initServletBean(547) - Completed initialization in 2 ms
+17:48:57.341 [SpringApplicationShutdownHook] INFO  cn.edu.bistu.cs.ir.index.IdxService.destroy(108) - 索引关闭
+17:52:37.280 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarting(55) - Starting IrDemoApplication using Java 17.0.7 on LAPTOP-JJI4VMN8 with PID 59460 (C:\Users\wsc\Downloads\ir_demo-master\ir_demo-master\target\classes started by wsc in C:\Users\wsc\Downloads\ir_demo-master)
+17:52:37.282 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStartupProfileInfo(634) - No active profile set, falling back to 1 default profile: "default"
+17:52:37.342 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+17:52:37.342 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+17:52:38.386 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize(108) - Tomcat initialized with port(s): 8080 (http)
+17:52:38.395 [restartedMain] INFO  o.a.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+17:52:38.395 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.68]
+17:52:38.461 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+17:52:38.462 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext(292) - Root WebApplicationContext: initialization completed in 1119 ms
+17:52:38.591 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace]已经存在，可以直接使用
+17:52:38.594 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/idx]已经存在，可以直接使用
+17:52:38.595 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/crawler]已经存在，可以直接使用
+17:52:38.684 [restartedMain] INFO  cn.edu.bistu.cs.ir.index.IdxService.<init>(48) - 索引初始化完成，索引目录为:[workspace/idx]
+17:52:39.049 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer(59) - LiveReload server is running on port 35729
+17:52:39.056 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init>(58) - Exposing 1 endpoint(s) beneath base path '/actuator'
+17:52:39.092 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start(220) - Tomcat started on port(s): 8080 (http) with context path ''
+17:52:39.108 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarted(61) - Started IrDemoApplication in 2.227 seconds (JVM running for 2.811)
+17:52:39.331 [RMI TCP Connection(4)-10.145.173.134] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log(173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:52:39.331 [RMI TCP Connection(4)-10.145.173.134] INFO  o.s.web.servlet.DispatcherServlet.initServletBean(525) - Initializing Servlet 'dispatcherServlet'
+17:52:39.333 [RMI TCP Connection(4)-10.145.173.134] INFO  o.s.web.servlet.DispatcherServlet.initServletBean(547) - Completed initialization in 1 ms
+17:59:52.840 [SpringApplicationShutdownHook] INFO  cn.edu.bistu.cs.ir.index.IdxService.destroy(108) - 索引关闭
+17:59:54.648 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarting(55) - Starting IrDemoApplication using Java 17.0.7 on LAPTOP-JJI4VMN8 with PID 72848 (C:\Users\wsc\Downloads\ir_demo-master\ir_demo-master\target\classes started by wsc in C:\Users\wsc\Downloads\ir_demo-master)
+17:59:54.650 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStartupProfileInfo(634) - No active profile set, falling back to 1 default profile: "default"
+17:59:54.697 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+17:59:54.697 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+17:59:55.711 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize(108) - Tomcat initialized with port(s): 8080 (http)
+17:59:55.721 [restartedMain] INFO  o.a.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+17:59:55.722 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.68]
+17:59:55.793 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+17:59:55.794 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext(292) - Root WebApplicationContext: initialization completed in 1096 ms
+17:59:55.927 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace]已经存在，可以直接使用
+17:59:55.929 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/idx]已经存在，可以直接使用
+17:59:55.931 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/crawler]已经存在，可以直接使用
+17:59:56.020 [restartedMain] INFO  cn.edu.bistu.cs.ir.index.IdxService.<init>(48) - 索引初始化完成，索引目录为:[workspace/idx]
+17:59:56.368 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer(59) - LiveReload server is running on port 35729
+17:59:56.372 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init>(58) - Exposing 1 endpoint(s) beneath base path '/actuator'
+17:59:56.404 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start(220) - Tomcat started on port(s): 8080 (http) with context path ''
+17:59:56.417 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarted(61) - Started IrDemoApplication in 2.187 seconds (JVM running for 2.733)
+17:59:56.885 [RMI TCP Connection(2)-10.145.173.134] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log(173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:59:56.885 [RMI TCP Connection(2)-10.145.173.134] INFO  o.s.web.servlet.DispatcherServlet.initServletBean(525) - Initializing Servlet 'dispatcherServlet'
+17:59:56.885 [RMI TCP Connection(2)-10.145.173.134] INFO  o.s.web.servlet.DispatcherServlet.initServletBean(547) - Completed initialization in 0 ms
+18:00:38.358 [SpringApplicationShutdownHook] INFO  cn.edu.bistu.cs.ir.index.IdxService.destroy(108) - 索引关闭
+18:00:40.158 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarting(55) - Starting IrDemoApplication using Java 17.0.7 on LAPTOP-JJI4VMN8 with PID 71792 (C:\Users\wsc\Downloads\ir_demo-master\ir_demo-master\target\classes started by wsc in C:\Users\wsc\Downloads\ir_demo-master)
+18:00:40.160 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStartupProfileInfo(634) - No active profile set, falling back to 1 default profile: "default"
+18:00:40.204 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18:00:40.205 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+18:00:41.140 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize(108) - Tomcat initialized with port(s): 8080 (http)
+18:00:41.148 [restartedMain] INFO  o.a.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+18:00:41.148 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.68]
+18:00:41.206 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+18:00:41.207 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext(292) - Root WebApplicationContext: initialization completed in 1001 ms
+18:00:41.333 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace]已经存在，可以直接使用
+18:00:41.334 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/idx]已经存在，可以直接使用
+18:00:41.335 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/crawler]已经存在，可以直接使用
+18:00:41.418 [restartedMain] INFO  cn.edu.bistu.cs.ir.index.IdxService.<init>(48) - 索引初始化完成，索引目录为:[workspace/idx]
+18:00:41.793 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer(59) - LiveReload server is running on port 35729
+18:00:41.799 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init>(58) - Exposing 1 endpoint(s) beneath base path '/actuator'
+18:00:41.834 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start(220) - Tomcat started on port(s): 8080 (http) with context path ''
+18:00:41.849 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarted(61) - Started IrDemoApplication in 2.056 seconds (JVM running for 2.639)
+18:00:42.367 [RMI TCP Connection(2)-10.145.173.134] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log(173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:00:42.367 [RMI TCP Connection(2)-10.145.173.134] INFO  o.s.web.servlet.DispatcherServlet.initServletBean(525) - Initializing Servlet 'dispatcherServlet'
+18:00:42.369 [RMI TCP Connection(2)-10.145.173.134] INFO  o.s.web.servlet.DispatcherServlet.initServletBean(547) - Completed initialization in 0 ms
+18:03:06.375 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent(213) - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+18:03:06.405 [Thread-5] INFO  o.a.catalina.core.StandardService.log(173) - Stopping service [Tomcat]
+18:03:06.407 [Thread-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log(173) - Destroying Spring FrameworkServlet 'dispatcherServlet'
+18:03:06.413 [Thread-5] INFO  cn.edu.bistu.cs.ir.index.IdxService.destroy(108) - 索引关闭
+18:03:06.490 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarting(55) - Starting IrDemoApplication using Java 17.0.7 on LAPTOP-JJI4VMN8 with PID 71792 (C:\Users\wsc\Downloads\ir_demo-master\ir_demo-master\target\classes started by wsc in C:\Users\wsc\Downloads\ir_demo-master)
+18:03:06.490 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStartupProfileInfo(634) - No active profile set, falling back to 1 default profile: "default"
+18:03:06.739 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize(108) - Tomcat initialized with port(s): 8080 (http)
+18:03:06.740 [restartedMain] INFO  o.a.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+18:03:06.740 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.68]
+18:03:06.764 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+18:03:06.764 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext(292) - Root WebApplicationContext: initialization completed in 272 ms
+18:03:06.794 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh(591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'queryController' defined in file [C:\Users\wsc\Downloads\ir_demo-master\ir_demo-master\target\classes\cn\edu\bistu\cs\ir\controller\QueryController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'idxService': Resolution of declared constructors on bean Class [cn.edu.bistu.cs.ir.index.IdxService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@5e108e2a] failed; nested exception is java.lang.NoClassDefFoundError: cn/edu/bistu/cs/ir/config/Config
+18:03:06.795 [restartedMain] INFO  o.a.catalina.core.StandardService.log(173) - Stopping service [Tomcat]
+18:03:06.805 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage(136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18:03:06.827 [restartedMain] ERROR o.s.boot.SpringApplication.reportFailure(824) - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'queryController' defined in file [C:\Users\wsc\Downloads\ir_demo-master\ir_demo-master\target\classes\cn\edu\bistu\cs\ir\controller\QueryController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'idxService': Resolution of declared constructors on bean Class [cn.edu.bistu.cs.ir.index.IdxService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@5e108e2a] failed; nested exception is java.lang.NoClassDefFoundError: cn/edu/bistu/cs/ir/config/Config
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at cn.edu.bistu.cs.ir.IrDemoApplication.main(IrDemoApplication.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'idxService': Resolution of declared constructors on bean Class [cn.edu.bistu.cs.ir.index.IdxService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@5e108e2a] failed; nested exception is java.lang.NoClassDefFoundError: cn/edu/bistu/cs/ir/config/Config
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:309)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: cn/edu/bistu/cs/ir/config/Config
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3373)
+	at java.base/java.lang.Class.getDeclaredConstructors(Class.java:2555)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:304)
+	... 37 common frames omitted
+Caused by: java.lang.ClassNotFoundException: cn.edu.bistu.cs.ir.config.Config
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 41 common frames omitted
+18:03:08.320 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarting(55) - Starting IrDemoApplication using Java 17.0.7 on LAPTOP-JJI4VMN8 with PID 71792 (C:\Users\wsc\Downloads\ir_demo-master\ir_demo-master\target\classes started by wsc in C:\Users\wsc\Downloads\ir_demo-master)
+18:03:08.320 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStartupProfileInfo(634) - No active profile set, falling back to 1 default profile: "default"
+18:03:08.519 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize(108) - Tomcat initialized with port(s): 8080 (http)
+18:03:08.519 [restartedMain] INFO  o.a.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+18:03:08.519 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.68]
+18:03:08.540 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+18:03:08.540 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext(292) - Root WebApplicationContext: initialization completed in 218 ms
+18:03:08.563 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh(591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'queryController' defined in file [C:\Users\wsc\Downloads\ir_demo-master\ir_demo-master\target\classes\cn\edu\bistu\cs\ir\controller\QueryController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'idxService': Resolution of declared constructors on bean Class [cn.edu.bistu.cs.ir.index.IdxService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@634bacab] failed; nested exception is java.lang.NoClassDefFoundError: cn/edu/bistu/cs/ir/config/Config
+18:03:08.564 [restartedMain] INFO  o.a.catalina.core.StandardService.log(173) - Stopping service [Tomcat]
+18:03:08.570 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage(136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18:03:08.573 [restartedMain] ERROR o.s.boot.SpringApplication.reportFailure(824) - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'queryController' defined in file [C:\Users\wsc\Downloads\ir_demo-master\ir_demo-master\target\classes\cn\edu\bistu\cs\ir\controller\QueryController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'idxService': Resolution of declared constructors on bean Class [cn.edu.bistu.cs.ir.index.IdxService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@634bacab] failed; nested exception is java.lang.NoClassDefFoundError: cn/edu/bistu/cs/ir/config/Config
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at cn.edu.bistu.cs.ir.IrDemoApplication.main(IrDemoApplication.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'idxService': Resolution of declared constructors on bean Class [cn.edu.bistu.cs.ir.index.IdxService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@634bacab] failed; nested exception is java.lang.NoClassDefFoundError: cn/edu/bistu/cs/ir/config/Config
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:309)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: cn/edu/bistu/cs/ir/config/Config
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3373)
+	at java.base/java.lang.Class.getDeclaredConstructors(Class.java:2555)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:304)
+	... 37 common frames omitted
+Caused by: java.lang.ClassNotFoundException: cn.edu.bistu.cs.ir.config.Config
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 41 common frames omitted
+18:03:15.164 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarting(55) - Starting IrDemoApplication using Java 17.0.7 on LAPTOP-JJI4VMN8 with PID 71792 (C:\Users\wsc\Downloads\ir_demo-master\ir_demo-master\target\classes started by wsc in C:\Users\wsc\Downloads\ir_demo-master)
+18:03:15.164 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStartupProfileInfo(634) - No active profile set, falling back to 1 default profile: "default"
+18:03:15.369 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize(108) - Tomcat initialized with port(s): 8080 (http)
+18:03:15.370 [restartedMain] INFO  o.a.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+18:03:15.370 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.68]
+18:03:15.392 [restartedMain] INFO  o.a.c.c.C.[Tomcat-2].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+18:03:15.393 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext(292) - Root WebApplicationContext: initialization completed in 227 ms
+18:03:15.415 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh(591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'queryController' defined in file [C:\Users\wsc\Downloads\ir_demo-master\ir_demo-master\target\classes\cn\edu\bistu\cs\ir\controller\QueryController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'idxService': Resolution of declared constructors on bean Class [cn.edu.bistu.cs.ir.index.IdxService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@33848ff6] failed; nested exception is java.lang.NoClassDefFoundError: cn/edu/bistu/cs/ir/config/Config
+18:03:15.416 [restartedMain] INFO  o.a.catalina.core.StandardService.log(173) - Stopping service [Tomcat]
+18:03:15.422 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage(136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18:03:15.424 [restartedMain] ERROR o.s.boot.SpringApplication.reportFailure(824) - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'queryController' defined in file [C:\Users\wsc\Downloads\ir_demo-master\ir_demo-master\target\classes\cn\edu\bistu\cs\ir\controller\QueryController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'idxService': Resolution of declared constructors on bean Class [cn.edu.bistu.cs.ir.index.IdxService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@33848ff6] failed; nested exception is java.lang.NoClassDefFoundError: cn/edu/bistu/cs/ir/config/Config
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at cn.edu.bistu.cs.ir.IrDemoApplication.main(IrDemoApplication.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'idxService': Resolution of declared constructors on bean Class [cn.edu.bistu.cs.ir.index.IdxService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@33848ff6] failed; nested exception is java.lang.NoClassDefFoundError: cn/edu/bistu/cs/ir/config/Config
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:309)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: cn/edu/bistu/cs/ir/config/Config
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3373)
+	at java.base/java.lang.Class.getDeclaredConstructors(Class.java:2555)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:304)
+	... 37 common frames omitted
+Caused by: java.lang.ClassNotFoundException: cn.edu.bistu.cs.ir.config.Config
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 41 common frames omitted
+18:03:24.060 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarting(55) - Starting IrDemoApplication using Java 17.0.7 on LAPTOP-JJI4VMN8 with PID 71792 (C:\Users\wsc\Downloads\ir_demo-master\ir_demo-master\target\classes started by wsc in C:\Users\wsc\Downloads\ir_demo-master)
+18:03:24.060 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStartupProfileInfo(634) - No active profile set, falling back to 1 default profile: "default"
+18:03:24.269 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize(108) - Tomcat initialized with port(s): 8080 (http)
+18:03:24.269 [restartedMain] INFO  o.a.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+18:03:24.270 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.68]
+18:03:24.294 [restartedMain] INFO  o.a.c.c.C.[Tomcat-3].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+18:03:24.294 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext(292) - Root WebApplicationContext: initialization completed in 233 ms
+18:03:24.319 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace]已经存在，可以直接使用
+18:03:24.320 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/idx]已经存在，可以直接使用
+18:03:24.320 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/crawler]已经存在，可以直接使用
+18:03:24.325 [restartedMain] INFO  cn.edu.bistu.cs.ir.index.IdxService.<init>(48) - 索引初始化完成，索引目录为:[workspace/idx]
+18:03:24.327 [restartedMain] INFO  c.e.b.cs.ir.crawler.CrawlerService.init(75) - 系统配置信息中[startCrawler]配置项为true，启动爬虫的运行
+18:03:24.332 [restartedMain] INFO  c.e.bistu.cs.ir.index.LucenePipeline.<init>(23) - 初始化LucenePipeline模块
+18:03:24.340 [restartedMain] INFO  c.e.b.cs.ir.crawler.CrawlerService.startCnBlogCrawler(69) - 启动面向博客园的爬虫，抓取博主ID为[tencent-cloud-native]的作者的文章
+18:03:24.416 [Thread-19] INFO  us.codecraft.webmagic.Spider.run(312) - Spider www.cnblogs.com started!
+18:03:24.443 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer(59) - LiveReload server is running on port 35729
+18:03:24.445 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init>(58) - Exposing 1 endpoint(s) beneath base path '/actuator'
+18:03:24.456 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start(220) - Tomcat started on port(s): 8080 (http) with context path ''
+18:03:24.463 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarted(61) - Started IrDemoApplication in 0.433 seconds (JVM running for 165.253)
+18:03:24.464 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent(63) - Condition evaluation unchanged
+18:03:24.803 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/default.html?page=2
+18:03:24.804 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(64) - 解析博客目录页[https://www.cnblogs.com/tencent-cloud-native/default.html?page=2]
+18:03:24.877 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(66) - 获取博文内容页地址[10]条
+18:03:26.958 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16700022.html
+18:03:26.959 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(72) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16700022.html]
+18:03:27.500 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(92) - 成功获取博文[16700022]的阅读数等信息:[[{"postId":16700022,"viewCount":221,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+18:03:27.611 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16700022]的文档加入索引
+18:03:29.761 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16405169.html
+18:03:29.762 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(72) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16405169.html]
+18:03:30.095 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(92) - 成功获取博文[16405169]的阅读数等信息:[[{"postId":16405169,"viewCount":1506,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+18:03:30.177 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16405169]的文档加入索引
+18:03:32.268 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16386260.html
+18:03:32.269 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(72) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16386260.html]
+18:03:32.594 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(92) - 成功获取博文[16386260]的阅读数等信息:[[{"postId":16386260,"viewCount":258,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+18:03:32.629 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16386260]的文档加入索引
+18:03:34.734 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16355019.html
+18:03:34.734 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(72) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16355019.html]
+18:03:35.070 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(92) - 成功获取博文[16355019]的阅读数等信息:[[{"postId":16355019,"viewCount":3292,"feedbackCount":0,"diggCount":1,"buryCount":0}]]
+18:03:35.128 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16355019]的文档加入索引
+18:03:37.206 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16335180.html
+18:03:37.206 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(72) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16335180.html]
+18:03:37.521 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(92) - 成功获取博文[16335180]的阅读数等信息:[[{"postId":16335180,"viewCount":2140,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+18:03:37.563 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16335180]的文档加入索引
+18:03:39.638 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16312457.html
+18:03:39.640 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(72) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16312457.html]
+18:03:39.955 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(92) - 成功获取博文[16312457]的阅读数等信息:[[{"postId":16312457,"viewCount":608,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+18:03:39.988 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16312457]的文档加入索引
+18:03:42.095 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16308328.html
+18:03:42.095 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(72) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16308328.html]
+18:03:42.419 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(92) - 成功获取博文[16308328]的阅读数等信息:[[{"postId":16308328,"viewCount":758,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+18:03:42.461 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16308328]的文档加入索引
+18:03:44.581 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16293039.html
+18:03:44.581 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(72) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16293039.html]
+18:03:44.906 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(92) - 成功获取博文[16293039]的阅读数等信息:[[{"postId":16293039,"viewCount":921,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+18:03:44.953 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16293039]的文档加入索引
+18:03:47.033 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16287609.html
+18:03:47.034 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(72) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16287609.html]
+18:03:47.268 [SpringApplicationShutdownHook] INFO  cn.edu.bistu.cs.ir.index.IdxService.destroy(108) - 索引关闭
+18:03:49.178 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarting(55) - Starting IrDemoApplication using Java 17.0.7 on LAPTOP-JJI4VMN8 with PID 54120 (C:\Users\wsc\Downloads\ir_demo-master\ir_demo-master\target\classes started by wsc in C:\Users\wsc\Downloads\ir_demo-master)
+18:03:49.180 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStartupProfileInfo(634) - No active profile set, falling back to 1 default profile: "default"
+18:03:49.223 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18:03:49.224 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+18:03:50.220 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize(108) - Tomcat initialized with port(s): 8080 (http)
+18:03:50.229 [restartedMain] INFO  o.a.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+18:03:50.229 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.68]
+18:03:50.299 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+18:03:50.300 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext(292) - Root WebApplicationContext: initialization completed in 1075 ms
+18:03:50.432 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace]已经存在，可以直接使用
+18:03:50.434 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/idx]已经存在，可以直接使用
+18:03:50.435 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/crawler]已经存在，可以直接使用
+18:03:50.542 [restartedMain] INFO  cn.edu.bistu.cs.ir.index.IdxService.<init>(48) - 索引初始化完成，索引目录为:[workspace/idx]
+18:03:50.545 [restartedMain] INFO  c.e.b.cs.ir.crawler.CrawlerService.init(75) - 系统配置信息中[startCrawler]配置项为true，启动爬虫的运行
+18:03:50.550 [restartedMain] INFO  c.e.bistu.cs.ir.index.LucenePipeline.<init>(23) - 初始化LucenePipeline模块
+18:03:50.557 [restartedMain] INFO  c.e.b.cs.ir.crawler.CrawlerService.startCnBlogCrawler(69) - 启动面向博客园的爬虫，抓取博主ID为[tencent-cloud-native]的作者的文章
+18:03:50.615 [Thread-4] INFO  us.codecraft.webmagic.Spider.run(312) - Spider www.cnblogs.com started!
+18:03:50.951 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer(59) - LiveReload server is running on port 35729
+18:03:50.956 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init>(58) - Exposing 1 endpoint(s) beneath base path '/actuator'
+18:03:50.986 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/default.html?page=2
+18:03:50.987 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(64) - 解析博客目录页[https://www.cnblogs.com/tencent-cloud-native/default.html?page=2]
+18:03:50.997 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start(220) - Tomcat started on port(s): 8080 (http) with context path ''
+18:03:51.011 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarted(61) - Started IrDemoApplication in 2.224 seconds (JVM running for 2.889)
+18:03:51.053 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(66) - 获取博文内容页地址[10]条
+18:03:51.455 [RMI TCP Connection(2)-10.145.173.134] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log(173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:03:51.455 [RMI TCP Connection(2)-10.145.173.134] INFO  o.s.web.servlet.DispatcherServlet.initServletBean(525) - Initializing Servlet 'dispatcherServlet'
+18:03:51.456 [RMI TCP Connection(2)-10.145.173.134] INFO  o.s.web.servlet.DispatcherServlet.initServletBean(547) - Completed initialization in 0 ms
+18:03:53.133 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16700022.html
+18:03:53.135 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(72) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16700022.html]
+18:03:53.674 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(92) - 成功获取博文[16700022]的阅读数等信息:[[{"postId":16700022,"viewCount":221,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+18:03:53.831 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16700022]的文档加入索引
+18:03:55.976 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16405169.html
+18:03:55.976 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(72) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16405169.html]
+18:03:56.313 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(92) - 成功获取博文[16405169]的阅读数等信息:[[{"postId":16405169,"viewCount":1506,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+18:03:56.352 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16405169]的文档加入索引
+18:03:58.430 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16386260.html
+18:03:58.431 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(72) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16386260.html]
+18:03:58.754 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(92) - 成功获取博文[16386260]的阅读数等信息:[[{"postId":16386260,"viewCount":258,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+18:03:58.792 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16386260]的文档加入索引
+18:04:00.906 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16355019.html
+18:04:00.906 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(72) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16355019.html]
+18:04:01.241 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(92) - 成功获取博文[16355019]的阅读数等信息:[[{"postId":16355019,"viewCount":3292,"feedbackCount":0,"diggCount":1,"buryCount":0}]]
+18:04:01.280 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16355019]的文档加入索引
+18:04:03.361 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16335180.html
+18:04:03.361 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(72) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16335180.html]
+18:04:03.703 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(92) - 成功获取博文[16335180]的阅读数等信息:[[{"postId":16335180,"viewCount":2140,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+18:04:03.739 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16335180]的文档加入索引
+18:04:05.818 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16312457.html
+18:04:05.819 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(72) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16312457.html]
+18:04:06.148 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(92) - 成功获取博文[16312457]的阅读数等信息:[[{"postId":16312457,"viewCount":608,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+18:04:06.194 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16312457]的文档加入索引
+18:04:08.306 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16308328.html
+18:04:08.307 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(72) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16308328.html]
+18:04:08.634 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(92) - 成功获取博文[16308328]的阅读数等信息:[[{"postId":16308328,"viewCount":758,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+18:04:08.680 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16308328]的文档加入索引
+18:04:10.785 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16293039.html
+18:04:10.786 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(72) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16293039.html]
+18:04:11.105 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(92) - 成功获取博文[16293039]的阅读数等信息:[[{"postId":16293039,"viewCount":921,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+18:04:11.150 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16293039]的文档加入索引
+18:04:13.233 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16287609.html
+18:04:13.233 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(72) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16287609.html]
+18:04:13.576 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(92) - 成功获取博文[16287609]的阅读数等信息:[[{"postId":16287609,"viewCount":538,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+18:04:13.610 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16287609]的文档加入索引
+18:04:15.717 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16276201.html
+18:04:15.718 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(72) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16276201.html]
+18:04:16.036 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(92) - 成功获取博文[16276201]的阅读数等信息:[[{"postId":16276201,"viewCount":854,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+18:04:16.078 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16276201]的文档加入索引
+18:04:18.081 [Thread-4] INFO  us.codecraft.webmagic.Spider.run(365) - Spider www.cnblogs.com closed! 11 pages downloaded.
+20:59:32.860 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent(213) - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+20:59:32.905 [Thread-6] INFO  o.a.catalina.core.StandardService.log(173) - Stopping service [Tomcat]
+20:59:32.908 [Thread-6] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log(173) - Destroying Spring FrameworkServlet 'dispatcherServlet'
+20:59:32.926 [Thread-6] INFO  cn.edu.bistu.cs.ir.index.IdxService.destroy(108) - 索引关闭
+20:59:33.067 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarting(55) - Starting IrDemoApplication using Java 17.0.7 on LAPTOP-JJI4VMN8 with PID 54120 (C:\Users\wsc\Downloads\ir_demo-master\ir_demo-master\target\classes started by wsc in C:\Users\wsc\Downloads\ir_demo-master)
+20:59:33.068 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStartupProfileInfo(634) - No active profile set, falling back to 1 default profile: "default"
+20:59:33.315 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize(108) - Tomcat initialized with port(s): 8080 (http)
+20:59:33.317 [restartedMain] INFO  o.a.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+20:59:33.317 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.68]
+20:59:33.364 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+20:59:33.365 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext(292) - Root WebApplicationContext: initialization completed in 294 ms
+20:59:33.392 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace]已经存在，可以直接使用
+20:59:33.392 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/idx]已经存在，可以直接使用
+20:59:33.392 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/crawler]已经存在，可以直接使用
+20:59:33.412 [restartedMain] INFO  cn.edu.bistu.cs.ir.index.IdxService.<init>(48) - 索引初始化完成，索引目录为:[workspace/idx]
+20:59:33.415 [restartedMain] INFO  c.e.b.cs.ir.crawler.CrawlerService.init(75) - 系统配置信息中[startCrawler]配置项为true，启动爬虫的运行
+20:59:33.415 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh(591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'crawlerService': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: cn/edu/bistu/cs/ir/crawler/CnBlogsCrawler
+20:59:33.415 [restartedMain] INFO  cn.edu.bistu.cs.ir.index.IdxService.destroy(108) - 索引关闭
+20:59:33.417 [restartedMain] INFO  o.a.catalina.core.StandardService.log(173) - Stopping service [Tomcat]
+20:59:33.424 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage(136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+20:59:33.442 [restartedMain] ERROR o.s.boot.SpringApplication.reportFailure(824) - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'crawlerService': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: cn/edu/bistu/cs/ir/crawler/CnBlogsCrawler
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:440)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at cn.edu.bistu.cs.ir.IrDemoApplication.main(IrDemoApplication.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.NoClassDefFoundError: cn/edu/bistu/cs/ir/crawler/CnBlogsCrawler
+	at cn.edu.bistu.cs.ir.crawler.CrawlerService.startCnBlogCrawler(CrawlerService.java:63)
+	at cn.edu.bistu.cs.ir.crawler.CrawlerService.init(CrawlerService.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:333)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:157)
+	... 23 common frames omitted
+Caused by: java.lang.ClassNotFoundException: cn.edu.bistu.cs.ir.crawler.CnBlogsCrawler
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 32 common frames omitted
+21:02:22.213 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarting(55) - Starting IrDemoApplication using Java 17.0.7 on LAPTOP-JJI4VMN8 with PID 82828 (C:\Users\wsc\Downloads\ir_demo-master\ir_demo-master\target\classes started by wsc in C:\Users\wsc\Downloads\ir_demo-master)
+21:02:22.214 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStartupProfileInfo(634) - No active profile set, falling back to 1 default profile: "default"
+21:02:22.272 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+21:02:22.273 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+21:02:23.349 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize(108) - Tomcat initialized with port(s): 8080 (http)
+21:02:23.358 [restartedMain] INFO  o.a.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+21:02:23.359 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.68]
+21:02:23.436 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+21:02:23.437 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext(292) - Root WebApplicationContext: initialization completed in 1163 ms
+21:02:23.568 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace]已经存在，可以直接使用
+21:02:23.569 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/idx]已经存在，可以直接使用
+21:02:23.570 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/crawler]已经存在，可以直接使用
+21:02:23.687 [restartedMain] INFO  cn.edu.bistu.cs.ir.index.IdxService.<init>(48) - 索引初始化完成，索引目录为:[workspace/idx]
+21:02:23.690 [restartedMain] INFO  c.e.b.cs.ir.crawler.CrawlerService.init(75) - 系统配置信息中[startCrawler]配置项为true，启动爬虫的运行
+21:02:23.694 [restartedMain] INFO  c.e.bistu.cs.ir.index.LucenePipeline.<init>(23) - 初始化LucenePipeline模块
+21:02:23.700 [restartedMain] INFO  c.e.b.cs.ir.crawler.CrawlerService.startCnBlogCrawler(69) - 启动面向博客园的爬虫，抓取博主ID为[tencent-cloud-native]的作者的文章
+21:02:23.758 [Thread-4] INFO  us.codecraft.webmagic.Spider.run(312) - Spider www.cnblogs.com started!
+21:02:24.071 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer(59) - LiveReload server is running on port 35729
+21:02:24.077 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init>(58) - Exposing 1 endpoint(s) beneath base path '/actuator'
+21:02:24.114 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/default.html?page=2
+21:02:24.114 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start(220) - Tomcat started on port(s): 8080 (http) with context path ''
+21:02:24.115 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(64) - 解析博客目录页[https://www.cnblogs.com/tencent-cloud-native/default.html?page=2]
+21:02:24.128 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarted(61) - Started IrDemoApplication in 2.262 seconds (JVM running for 2.874)
+21:02:24.172 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(68) - 获取博文内容页地址[10]条
+21:02:24.448 [RMI TCP Connection(2)-10.145.173.134] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log(173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:02:24.449 [RMI TCP Connection(2)-10.145.173.134] INFO  o.s.web.servlet.DispatcherServlet.initServletBean(525) - Initializing Servlet 'dispatcherServlet'
+21:02:24.450 [RMI TCP Connection(2)-10.145.173.134] INFO  o.s.web.servlet.DispatcherServlet.initServletBean(547) - Completed initialization in 1 ms
+21:02:29.281 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16700022.html
+21:02:29.281 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16700022.html]
+21:02:29.820 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16700022]的阅读数等信息:[[{"postId":16700022,"viewCount":221,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+21:02:29.992 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16700022]的文档加入索引
+21:02:35.123 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16405169.html
+21:02:35.125 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16405169.html]
+21:02:35.453 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16405169]的阅读数等信息:[[{"postId":16405169,"viewCount":1506,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+21:02:35.496 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16405169]的文档加入索引
+21:02:40.577 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16386260.html
+21:02:40.578 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16386260.html]
+21:02:40.928 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16386260]的阅读数等信息:[[{"postId":16386260,"viewCount":258,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+21:02:40.974 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16386260]的文档加入索引
+21:02:46.085 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16355019.html
+21:02:46.086 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16355019.html]
+21:02:46.443 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16355019]的阅读数等信息:[[{"postId":16355019,"viewCount":3292,"feedbackCount":0,"diggCount":1,"buryCount":0}]]
+21:02:46.510 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16355019]的文档加入索引
+21:02:51.593 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16335180.html
+21:02:51.593 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16335180.html]
+21:02:51.914 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16335180]的阅读数等信息:[[{"postId":16335180,"viewCount":2140,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+21:02:51.961 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16335180]的文档加入索引
+21:02:57.043 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16312457.html
+21:02:57.043 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16312457.html]
+21:02:57.370 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16312457]的阅读数等信息:[[{"postId":16312457,"viewCount":608,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+21:02:57.409 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16312457]的文档加入索引
+21:03:00.192 [SpringApplicationShutdownHook] INFO  cn.edu.bistu.cs.ir.index.IdxService.destroy(108) - 索引关闭
+21:22:22.735 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarting(55) - Starting IrDemoApplication using Java 17.0.7 on LAPTOP-JJI4VMN8 with PID 59608 (C:\Users\wsc\Downloads\ir_demo-master\ir_demo-master\target\classes started by wsc in C:\Users\wsc\Downloads\ir_demo-master)
+21:22:22.737 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStartupProfileInfo(634) - No active profile set, falling back to 1 default profile: "default"
+21:22:22.780 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+21:22:22.781 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+21:22:23.874 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize(108) - Tomcat initialized with port(s): 8080 (http)
+21:22:23.883 [restartedMain] INFO  o.a.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+21:22:23.883 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.68]
+21:22:23.960 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+21:22:23.961 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext(292) - Root WebApplicationContext: initialization completed in 1180 ms
+21:22:24.113 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace]已经存在，可以直接使用
+21:22:24.115 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/idx]已经存在，可以直接使用
+21:22:24.116 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/crawler]已经存在，可以直接使用
+21:22:24.226 [restartedMain] INFO  cn.edu.bistu.cs.ir.index.IdxService.<init>(48) - 索引初始化完成，索引目录为:[workspace/idx]
+21:22:24.229 [restartedMain] INFO  c.e.b.cs.ir.crawler.CrawlerService.init(75) - 系统配置信息中[startCrawler]配置项为true，启动爬虫的运行
+21:22:24.233 [restartedMain] INFO  c.e.bistu.cs.ir.index.LucenePipeline.<init>(23) - 初始化LucenePipeline模块
+21:22:24.241 [restartedMain] INFO  c.e.b.cs.ir.crawler.CrawlerService.startCnBlogCrawler(69) - 启动面向博客园的爬虫，抓取博主ID为[tencent-cloud-native]的作者的文章
+21:22:24.297 [Thread-4] INFO  us.codecraft.webmagic.Spider.run(312) - Spider www.cnblogs.com started!
+21:22:24.615 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer(59) - LiveReload server is running on port 35729
+21:22:24.622 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init>(58) - Exposing 1 endpoint(s) beneath base path '/actuator'
+21:22:24.657 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start(220) - Tomcat started on port(s): 8080 (http) with context path ''
+21:22:24.669 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarted(61) - Started IrDemoApplication in 2.306 seconds (JVM running for 2.87)
+21:22:24.764 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/default.html?page=2
+21:22:24.766 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(64) - 解析博客目录页[https://www.cnblogs.com/tencent-cloud-native/default.html?page=2]
+21:22:24.831 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(68) - 获取博文内容页地址[10]条
+21:22:24.994 [RMI TCP Connection(2)-10.145.173.134] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log(173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:22:24.995 [RMI TCP Connection(2)-10.145.173.134] INFO  o.s.web.servlet.DispatcherServlet.initServletBean(525) - Initializing Servlet 'dispatcherServlet'
+21:22:24.997 [RMI TCP Connection(2)-10.145.173.134] INFO  o.s.web.servlet.DispatcherServlet.initServletBean(547) - Completed initialization in 2 ms
+21:22:29.924 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16700022.html
+21:22:29.925 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16700022.html]
+21:22:30.513 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16700022]的阅读数等信息:[[{"postId":16700022,"viewCount":221,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+21:22:30.691 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16700022]的文档加入索引
+21:22:35.850 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16405169.html
+21:22:35.851 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16405169.html]
+21:22:36.199 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16405169]的阅读数等信息:[[{"postId":16405169,"viewCount":1506,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+21:22:36.271 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16405169]的文档加入索引
+21:22:41.350 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16386260.html
+21:22:41.351 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16386260.html]
+21:22:41.697 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16386260]的阅读数等信息:[[{"postId":16386260,"viewCount":258,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+21:22:41.753 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16386260]的文档加入索引
+21:22:46.857 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16355019.html
+21:22:46.858 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16355019.html]
+21:22:47.190 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16355019]的阅读数等信息:[[{"postId":16355019,"viewCount":3292,"feedbackCount":0,"diggCount":1,"buryCount":0}]]
+21:22:47.250 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16355019]的文档加入索引
+21:22:52.329 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16335180.html
+21:22:52.331 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16335180.html]
+21:22:52.667 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16335180]的阅读数等信息:[[{"postId":16335180,"viewCount":2140,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+21:22:52.724 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16335180]的文档加入索引
+21:22:57.799 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16312457.html
+21:22:57.800 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16312457.html]
+21:22:58.118 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16312457]的阅读数等信息:[[{"postId":16312457,"viewCount":609,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+21:22:58.172 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16312457]的文档加入索引
+21:23:03.279 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16308328.html
+21:23:03.280 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16308328.html]
+21:23:03.616 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16308328]的阅读数等信息:[[{"postId":16308328,"viewCount":758,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+21:23:03.667 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16308328]的文档加入索引
+21:23:08.791 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16293039.html
+21:23:08.793 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16293039.html]
+21:23:09.136 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16293039]的阅读数等信息:[[{"postId":16293039,"viewCount":921,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+21:23:09.204 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16293039]的文档加入索引
+21:23:14.292 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16287609.html
+21:23:14.292 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16287609.html]
+21:23:14.616 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16287609]的阅读数等信息:[[{"postId":16287609,"viewCount":538,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+21:23:14.671 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16287609]的文档加入索引
+21:23:19.778 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16276201.html
+21:23:19.779 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16276201.html]
+21:23:20.105 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16276201]的阅读数等信息:[[{"postId":16276201,"viewCount":854,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+21:23:20.154 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16276201]的文档加入索引
+21:23:25.157 [Thread-4] INFO  us.codecraft.webmagic.Spider.run(365) - Spider www.cnblogs.com closed! 11 pages downloaded.
+21:27:06.067 [SpringApplicationShutdownHook] INFO  cn.edu.bistu.cs.ir.index.IdxService.destroy(108) - 索引关闭
+22:05:10.304 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarting(55) - Starting IrDemoApplication using Java 17.0.7 on LAPTOP-JJI4VMN8 with PID 76184 (C:\Users\wsc\Downloads\ir_demo-master\ir_demo-master\target\classes started by wsc in C:\Users\wsc\Downloads\ir_demo-master)
+22:05:10.306 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStartupProfileInfo(634) - No active profile set, falling back to 1 default profile: "default"
+22:05:10.346 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+22:05:10.346 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+22:05:11.316 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize(108) - Tomcat initialized with port(s): 8080 (http)
+22:05:11.324 [restartedMain] INFO  o.a.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+22:05:11.325 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.68]
+22:05:11.384 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+22:05:11.385 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext(292) - Root WebApplicationContext: initialization completed in 1037 ms
+22:05:11.511 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace]已经存在，可以直接使用
+22:05:11.512 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/idx]已经存在，可以直接使用
+22:05:11.513 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/crawler]已经存在，可以直接使用
+22:05:11.624 [restartedMain] INFO  cn.edu.bistu.cs.ir.index.IdxService.<init>(48) - 索引初始化完成，索引目录为:[workspace/idx]
+22:05:11.627 [restartedMain] INFO  c.e.b.cs.ir.crawler.CrawlerService.init(75) - 系统配置信息中[startCrawler]配置项为true，启动爬虫的运行
+22:05:11.632 [restartedMain] INFO  c.e.bistu.cs.ir.index.LucenePipeline.<init>(24) - 初始化LucenePipeline模块
+22:05:11.638 [restartedMain] INFO  c.e.b.cs.ir.crawler.CrawlerService.startCnBlogCrawler(69) - 启动面向博客园的爬虫，抓取博主ID为[tencent-cloud-native]的作者的文章
+22:05:11.691 [Thread-4] INFO  us.codecraft.webmagic.Spider.run(312) - Spider www.cnblogs.com started!
+22:05:11.998 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer(59) - LiveReload server is running on port 35729
+22:05:12.004 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init>(58) - Exposing 1 endpoint(s) beneath base path '/actuator'
+22:05:12.038 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start(220) - Tomcat started on port(s): 8080 (http) with context path ''
+22:05:12.051 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarted(61) - Started IrDemoApplication in 2.115 seconds (JVM running for 3.241)
+22:05:12.053 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/default.html?page=2
+22:05:12.054 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(64) - 解析博客目录页[https://www.cnblogs.com/tencent-cloud-native/default.html?page=2]
+22:05:12.110 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(68) - 获取博文内容页地址[10]条
+22:05:12.273 [RMI TCP Connection(2)-10.145.173.134] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log(173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:05:12.273 [RMI TCP Connection(2)-10.145.173.134] INFO  o.s.web.servlet.DispatcherServlet.initServletBean(525) - Initializing Servlet 'dispatcherServlet'
+22:05:12.275 [RMI TCP Connection(2)-10.145.173.134] INFO  o.s.web.servlet.DispatcherServlet.initServletBean(547) - Completed initialization in 2 ms
+22:05:17.202 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16700022.html
+22:05:17.202 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16700022.html]
+22:05:17.723 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16700022]的阅读数等信息:[[{"postId":16700022,"viewCount":221,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+22:05:17.897 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16700022]的文档加入索引
+22:05:23.034 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16405169.html
+22:05:23.035 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16405169.html]
+22:05:23.364 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16405169]的阅读数等信息:[[{"postId":16405169,"viewCount":1507,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+22:05:23.419 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16405169]的文档加入索引
+22:05:28.512 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16386260.html
+22:05:28.513 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16386260.html]
+22:05:28.844 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16386260]的阅读数等信息:[[{"postId":16386260,"viewCount":258,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+22:05:28.890 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16386260]的文档加入索引
+22:05:33.994 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16355019.html
+22:05:33.994 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16355019.html]
+22:05:34.311 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16355019]的阅读数等信息:[[{"postId":16355019,"viewCount":3292,"feedbackCount":0,"diggCount":1,"buryCount":0}]]
+22:05:34.394 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16355019]的文档加入索引
+22:05:39.478 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16335180.html
+22:05:39.479 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16335180.html]
+22:05:39.829 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16335180]的阅读数等信息:[[{"postId":16335180,"viewCount":2140,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+22:05:39.863 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16335180]的文档加入索引
+22:05:44.939 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16312457.html
+22:05:44.940 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16312457.html]
+22:05:45.256 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16312457]的阅读数等信息:[[{"postId":16312457,"viewCount":609,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+22:05:45.302 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16312457]的文档加入索引
+22:05:50.410 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16308328.html
+22:05:50.412 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16308328.html]
+22:05:50.828 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16308328]的阅读数等信息:[[{"postId":16308328,"viewCount":758,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+22:05:50.890 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16308328]的文档加入索引
+22:05:55.996 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16293039.html
+22:05:55.998 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16293039.html]
+22:05:56.319 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16293039]的阅读数等信息:[[{"postId":16293039,"viewCount":921,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+22:05:56.401 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16293039]的文档加入索引
+22:06:01.492 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16287609.html
+22:06:01.493 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16287609.html]
+22:06:01.840 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16287609]的阅读数等信息:[[{"postId":16287609,"viewCount":538,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+22:06:01.886 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16287609]的文档加入索引
+22:06:06.995 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16276201.html
+22:06:06.996 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16276201.html]
+22:06:07.319 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16276201]的阅读数等信息:[[{"postId":16276201,"viewCount":854,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+22:06:07.394 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16276201]的文档加入索引
+22:06:10.098 [SpringApplicationShutdownHook] INFO  cn.edu.bistu.cs.ir.index.IdxService.destroy(108) - 索引关闭
+22:37:20.164 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarting(55) - Starting IrDemoApplication using Java 17.0.7 on LAPTOP-JJI4VMN8 with PID 66492 (C:\Users\wsc\Downloads\ir_demo-master\ir_demo-master\target\classes started by wsc in C:\Users\wsc\Downloads\ir_demo-master)
+22:37:20.165 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStartupProfileInfo(634) - No active profile set, falling back to 1 default profile: "default"
+22:37:20.209 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+22:37:20.210 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+22:37:21.170 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize(108) - Tomcat initialized with port(s): 8080 (http)
+22:37:21.180 [restartedMain] INFO  o.a.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+22:37:21.180 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.68]
+22:37:21.244 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+22:37:21.245 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext(292) - Root WebApplicationContext: initialization completed in 1033 ms
+22:37:21.378 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace]已经存在，可以直接使用
+22:37:21.381 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/idx]已经存在，可以直接使用
+22:37:21.382 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/crawler]已经存在，可以直接使用
+22:37:21.492 [restartedMain] INFO  cn.edu.bistu.cs.ir.index.IdxService.<init>(48) - 索引初始化完成，索引目录为:[workspace/idx]
+22:37:21.495 [restartedMain] INFO  c.e.b.cs.ir.crawler.CrawlerService.init(75) - 系统配置信息中[startCrawler]配置项为true，启动爬虫的运行
+22:37:21.500 [restartedMain] INFO  c.e.bistu.cs.ir.index.LucenePipeline.<init>(25) - 初始化LucenePipeline模块
+22:37:21.505 [restartedMain] INFO  c.e.b.cs.ir.crawler.CrawlerService.startCnBlogCrawler(69) - 启动面向博客园的爬虫，抓取博主ID为[tencent-cloud-native]的作者的文章
+22:37:21.562 [Thread-4] INFO  us.codecraft.webmagic.Spider.run(312) - Spider www.cnblogs.com started!
+22:37:21.869 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer(59) - LiveReload server is running on port 35729
+22:37:21.874 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init>(58) - Exposing 1 endpoint(s) beneath base path '/actuator'
+22:37:21.902 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/default.html?page=2
+22:37:21.902 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(64) - 解析博客目录页[https://www.cnblogs.com/tencent-cloud-native/default.html?page=2]
+22:37:21.912 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start(220) - Tomcat started on port(s): 8080 (http) with context path ''
+22:37:21.926 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarted(61) - Started IrDemoApplication in 2.11 seconds (JVM running for 2.683)
+22:37:21.964 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(68) - 获取博文内容页地址[10]条
+22:37:22.511 [RMI TCP Connection(3)-10.145.173.134] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log(173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:37:22.512 [RMI TCP Connection(3)-10.145.173.134] INFO  o.s.web.servlet.DispatcherServlet.initServletBean(525) - Initializing Servlet 'dispatcherServlet'
+22:37:22.513 [RMI TCP Connection(3)-10.145.173.134] INFO  o.s.web.servlet.DispatcherServlet.initServletBean(547) - Completed initialization in 1 ms
+22:37:27.097 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16700022.html
+22:37:27.098 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16700022.html]
+22:37:27.663 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16700022]的阅读数等信息:[[{"postId":16700022,"viewCount":221,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+22:37:27.837 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16700022]的文档加入索引
+22:37:32.971 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16405169.html
+22:37:32.972 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16405169.html]
+22:37:33.305 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16405169]的阅读数等信息:[[{"postId":16405169,"viewCount":1507,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+22:37:33.379 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16405169]的文档加入索引
+22:37:38.456 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16386260.html
+22:37:38.456 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16386260.html]
+22:37:38.819 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16386260]的阅读数等信息:[[{"postId":16386260,"viewCount":259,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+22:37:38.862 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16386260]的文档加入索引
+22:37:43.972 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16355019.html
+22:37:43.973 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16355019.html]
+22:37:44.319 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16355019]的阅读数等信息:[[{"postId":16355019,"viewCount":3292,"feedbackCount":0,"diggCount":1,"buryCount":0}]]
+22:37:44.370 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16355019]的文档加入索引
+22:37:49.447 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16335180.html
+22:37:49.447 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16335180.html]
+22:37:49.760 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16335180]的阅读数等信息:[[{"postId":16335180,"viewCount":2140,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+22:37:49.803 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16335180]的文档加入索引
+22:37:54.881 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16312457.html
+22:37:54.882 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16312457.html]
+22:37:55.203 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16312457]的阅读数等信息:[[{"postId":16312457,"viewCount":609,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+22:37:55.257 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16312457]的文档加入索引
+22:38:00.365 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16308328.html
+22:38:00.367 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16308328.html]
+22:38:00.701 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16308328]的阅读数等信息:[[{"postId":16308328,"viewCount":758,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+22:38:00.759 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16308328]的文档加入索引
+22:38:05.907 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16293039.html
+22:38:05.908 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16293039.html]
+22:38:06.225 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16293039]的阅读数等信息:[[{"postId":16293039,"viewCount":921,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+22:38:06.264 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16293039]的文档加入索引
+22:38:11.348 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16287609.html
+22:38:11.350 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16287609.html]
+22:38:11.697 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16287609]的阅读数等信息:[[{"postId":16287609,"viewCount":538,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+22:38:11.739 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16287609]的文档加入索引
+22:38:16.253 [SpringApplicationShutdownHook] INFO  cn.edu.bistu.cs.ir.index.IdxService.destroy(151) - 索引关闭
+22:58:26.347 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarting(55) - Starting IrDemoApplication using Java 17.0.7 on LAPTOP-JJI4VMN8 with PID 81488 (C:\Users\wsc\Downloads\ir_demo-master\ir_demo-master\target\classes started by wsc in C:\Users\wsc\Downloads\ir_demo-master)
+22:58:26.349 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStartupProfileInfo(634) - No active profile set, falling back to 1 default profile: "default"
+22:58:26.394 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+22:58:26.394 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+22:58:27.412 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize(108) - Tomcat initialized with port(s): 8080 (http)
+22:58:27.421 [restartedMain] INFO  o.a.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+22:58:27.422 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.68]
+22:58:27.488 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+22:58:27.488 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext(292) - Root WebApplicationContext: initialization completed in 1093 ms
+22:58:27.622 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace]已经存在，可以直接使用
+22:58:27.623 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/idx]已经存在，可以直接使用
+22:58:27.623 [restartedMain] INFO  cn.edu.bistu.cs.ir.config.Config.createDir(82) - 系统工作目录[workspace/crawler]已经存在，可以直接使用
+22:58:27.744 [restartedMain] INFO  cn.edu.bistu.cs.ir.index.IdxService.<init>(48) - 索引初始化完成，索引目录为:[workspace/idx]
+22:58:27.747 [restartedMain] INFO  c.e.b.cs.ir.crawler.CrawlerService.init(75) - 系统配置信息中[startCrawler]配置项为true，启动爬虫的运行
+22:58:27.753 [restartedMain] INFO  c.e.bistu.cs.ir.index.LucenePipeline.<init>(25) - 初始化LucenePipeline模块
+22:58:27.760 [restartedMain] INFO  c.e.b.cs.ir.crawler.CrawlerService.startCnBlogCrawler(69) - 启动面向博客园的爬虫，抓取博主ID为[tencent-cloud-native]的作者的文章
+22:58:27.816 [Thread-4] INFO  us.codecraft.webmagic.Spider.run(312) - Spider www.cnblogs.com started!
+22:58:28.142 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer(59) - LiveReload server is running on port 35729
+22:58:28.147 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init>(58) - Exposing 1 endpoint(s) beneath base path '/actuator'
+22:58:28.164 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/default.html?page=2
+22:58:28.165 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(64) - 解析博客目录页[https://www.cnblogs.com/tencent-cloud-native/default.html?page=2]
+22:58:28.187 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start(220) - Tomcat started on port(s): 8080 (http) with context path ''
+22:58:28.200 [restartedMain] INFO  cn.edu.bistu.cs.ir.IrDemoApplication.logStarted(61) - Started IrDemoApplication in 2.251 seconds (JVM running for 2.972)
+22:58:28.231 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(68) - 获取博文内容页地址[10]条
+22:58:28.468 [RMI TCP Connection(1)-10.145.173.134] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log(173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:58:28.468 [RMI TCP Connection(1)-10.145.173.134] INFO  o.s.web.servlet.DispatcherServlet.initServletBean(525) - Initializing Servlet 'dispatcherServlet'
+22:58:28.470 [RMI TCP Connection(1)-10.145.173.134] INFO  o.s.web.servlet.DispatcherServlet.initServletBean(547) - Completed initialization in 2 ms
+22:58:33.320 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16700022.html
+22:58:33.322 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16700022.html]
+22:58:33.914 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16700022]的阅读数等信息:[[{"postId":16700022,"viewCount":221,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+22:58:34.139 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16700022]的文档加入索引
+22:58:39.273 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16405169.html
+22:58:39.274 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16405169.html]
+22:58:39.606 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16405169]的阅读数等信息:[[{"postId":16405169,"viewCount":1508,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+22:58:39.657 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16405169]的文档加入索引
+22:58:44.740 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16386260.html
+22:58:44.742 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16386260.html]
+22:58:45.065 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16386260]的阅读数等信息:[[{"postId":16386260,"viewCount":259,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+22:58:45.137 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16386260]的文档加入索引
+22:58:50.240 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16355019.html
+22:58:50.243 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16355019.html]
+22:58:50.577 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16355019]的阅读数等信息:[[{"postId":16355019,"viewCount":3294,"feedbackCount":0,"diggCount":1,"buryCount":0}]]
+22:58:50.629 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16355019]的文档加入索引
+22:58:55.710 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16335180.html
+22:58:55.710 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16335180.html]
+22:58:56.040 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16335180]的阅读数等信息:[[{"postId":16335180,"viewCount":2142,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+22:58:56.087 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16335180]的文档加入索引
+22:59:01.167 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16312457.html
+22:59:01.169 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16312457.html]
+22:59:01.503 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16312457]的阅读数等信息:[[{"postId":16312457,"viewCount":609,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+22:59:01.554 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16312457]的文档加入索引
+22:59:06.660 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16308328.html
+22:59:06.660 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16308328.html]
+22:59:06.989 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16308328]的阅读数等信息:[[{"postId":16308328,"viewCount":758,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+22:59:07.033 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16308328]的文档加入索引
+22:59:12.142 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16293039.html
+22:59:12.143 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16293039.html]
+22:59:12.471 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16293039]的阅读数等信息:[[{"postId":16293039,"viewCount":921,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+22:59:12.522 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16293039]的文档加入索引
+22:59:17.607 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16287609.html
+22:59:17.608 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16287609.html]
+22:59:17.940 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16287609]的阅读数等信息:[[{"postId":16287609,"viewCount":539,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+22:59:17.997 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16287609]的文档加入索引
+22:59:23.102 [pool-1-thread-1] INFO  u.c.w.d.HttpClientDownloader.download(86) - downloading page success https://www.cnblogs.com/tencent-cloud-native/p/16276201.html
+22:59:23.104 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(79) - 解析博客内容页[https://www.cnblogs.com/tencent-cloud-native/p/16276201.html]
+22:59:23.432 [pool-1-thread-1] INFO  c.e.b.cs.ir.crawler.CnBlogsCrawler.process(107) - 成功获取博文[16276201]的阅读数等信息:[[{"postId":16276201,"viewCount":854,"feedbackCount":0,"diggCount":0,"buryCount":0}]]
+22:59:23.487 [pool-1-thread-1] INFO  cn.edu.bistu.cs.ir.index.IdxService.addDocument(68) - 成功将ID为[16276201]的文档加入索引
+22:59:28.490 [Thread-4] INFO  us.codecraft.webmagic.Spider.run(365) - Spider www.cnblogs.com closed! 11 pages downloaded.
