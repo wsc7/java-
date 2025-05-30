@@ -92,7 +92,7 @@ public class QueryController {
                 Map<String, String> record = new HashMap<>(2);
                 record.put("ID", doc.get("ID"));
                 record.put("TITLE", doc.get("TITLE"));
-                record.put("TIME", doc.get("TIME_STORE"));
+                record.put("TIME", doc.get("PUBLISH_TIME_STORE"));
                 results.add(record);
             }
             return QueryResponse.genSucc("检索成功", results);
